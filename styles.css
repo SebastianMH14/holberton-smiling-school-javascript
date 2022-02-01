@@ -1,0 +1,257 @@
+:root {
+    --morado: #C271FF;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+ /* =============== homepage ================= */
+
+/* header */
+.bg-img {
+    background-image: url(/images/pic_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button {
+    background-color: var(--morado) !important;
+    color:white !important;
+    border-radius: 22px !important;
+}
+
+.main {
+    font-size: 120px;
+}
+
+@media screen and (max-width: 576px) {
+    .main{
+        font-size: 61px;
+        white-space: nowrap;
+    }
+}
+
+.learn {
+    color: var(--morado) !important;
+}
+
+.nav-item {
+    font-size: 12px;
+}
+
+.names {
+    font-size: 18px;
+}
+
+.text-break {
+    white-space: pre-line;
+}
+
+/* carousel */
+.bg-carousel {
+    background-color: var(--morado) !important;
+    color: white;
+    min-width: auto !important;
+    min-height: 392px !important;
+}
+
+.text-carousel {
+    font-size: 22px;
+}
+
+.title-carousel {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.text-special
+{
+    font-size: 22px;
+    font-style: italic;
+}
+
+/* most popular tutorials */
+/* 
+.tutorials {
+    min-width: 1440px !important;
+    min-height: 650px !important;
+} */
+
+.tutorials .tutorial-title {
+    font-style: normal !important;
+    font-weight: 300!important;
+    font-size: 32px!important;
+    line-height: 40px!important;
+    color: #071629!important;
+}
+
+.tutorials h6 {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color : var(--morado) !important;
+}
+
+.tutorials .on, .on {
+    color: var(--morado) !important;
+}
+
+.tutorials .holberton_school-icon-star {
+    color: #D8D8D8;
+}
+
+/* 
+free-membershib */
+
+.free-membershib {
+    background-color: #071629 !important;
+    /* min-width: 1440px !important;
+    min-height: 502px !important; */
+}
+
+.free-membershib h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.free-membershib h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.free-membershib span {
+    color: var(--morado) !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.free-membershib img {
+    margin: auto;
+}
+
+/* footer */
+
+footer {
+    /* min-width: 1440px !important; */
+    background-color: #071629 !important;
+
+}
+.holberton_school-icon-ic_facebook {
+    width: auto !important;
+    height: 1000px !important;
+}
+
+footer span::before {
+    vertical-align: align-text-top !important;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+
+/* =============== pricing page ================= */
+
+.bg-img-pricing{
+    background-image: url(/images/pic_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* main */
+.go-pro {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.holberton_school-icon-check {
+    color:#82D24F;
+    width: 28px;
+    height: 28px;
+}
+
+th {
+    font-size: 18px;
+}
+
+section table span {
+    font-size: 30px
+}
+
+/* FAQ */
+.faq {
+   background-color: white;
+}
+
+.faq h1 {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 60px;
+   line-height: 75px;
+   text-align: center;
+   color: #071629;
+}
+
+.faq h6 {
+   font-style: normal;
+   font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+    ;
+}
+
+ .faq p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+ /* =============== courses =============== */
+
+ .bg-img-courses {
+    background-image: url(/images/pic_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .bg-img-courses h1 {
+    font-family: Coiny;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+ }
+
+ /* Search filters */
+ 
+/* .search-section {
+    background-color: var(--morado);
+    Width: 1440px !important;
+    Height: 138px !important;
+} */
+/* List of result */
+
+.List-result {
+    background-color: white;
+}
+
+.List-result h6 {
+    color: var(--morado);
+}
